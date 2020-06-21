@@ -1,0 +1,56 @@
+# got to go fast!
+alias e='$EDITOR'
+alias se='sudo $EDITOR'
+alias v='sxiv-rifle'
+alias n='nnn -d -T v'
+
+# configs
+alias nc='$EDITOR $HOME/.config/nvim/init.vim' 
+alias ncc='$EDITOR $HOME/.config/nvim/settings.vim'
+alias bc='$EDITOR ~/.bashrc'
+alias brc='source $HOME/.bashrc'
+alias za='$EDITOR $HOME/.config/zsh/alias'
+alias zc='$EDITOR $HOME/.config/zsh/.zshrc'
+alias ze='$EDITOR $HOME/.config/zsh/.zshenv'
+alias zrc='source $HOME/.config/zsh/.zshrc'
+alias ic='$EDITOR $HOME/.config/i3/config'
+alias xc='$EDITOR $HOME/.Xresources'
+alias xrc='xrdb ~/.Xresources'
+alias tmc='$EDITOR $HOME/.config/tmux/tmux.conf'
+
+# we call him, Manuel!
+alias mz='man zshall'
+alias m='man 3'
+
+# looking around
+alias ls='LANG=C ls --color=auto --group-directories-first -F --si --time-style=+"%d.%m.%Y %H:%M"'
+alias la='ls -ah'
+alias lal='ls -ahlo'
+alias ll='ls -lho'
+
+# moving around
+alias n='nnn -T v'
+alias bin='cd $HOME/.local/bin && la'
+alias con='cd $HOME/.config/ && la'
+alias cla='cd $HOME/doc/c-kurssi && ls'
+
+# system control
+alias grep='grep --colour=auto'
+alias egrep='egrep --colour=auto'
+alias fgrep='fgrep --colour=auto'
+alias cp='cp -i'                          # confirm overwrite
+alias df='df -h'                          # human-readable sizes
+alias free='free -m'                      # show sizes in MB
+alias more='less'
+alias less='less -i -R'
+alias fixit='sudo rm -f /var/lib/pacman/db.lck'
+alias ka='killall'
+alias i='sudo pacman -Syu'
+alias l='less'
+alias u='sudo pacman -Syyu'
+alias packeys='sudo pacman-key --init && sudo pacman-key --populate archlinux manjaro && sudo pacman-key --refresh-keys'
+alias t='watch sensors'
+
+# window info
+alias xevc='xev | grep -A2 --line-buffered '\''^KeyRelease'\'' | sed -n '\''/keycode /s/^.*keycode \([0-9]*\).* (.*, \(.*\)).*$/\1 \2/p'\'
+alias xpropc='xprop | grep "WM_WINDOW_ROLE\|WM_CLASS" && echo "WM_CLASS(STRING) = \"NAME\", \"CLASS\""'
