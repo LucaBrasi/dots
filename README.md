@@ -2,5 +2,7 @@
 my dotfiles
 i <3 [nord](https://www.nordtheme.com/)
 
-![muchFun](https://imgur.com/a/WO5GtKw)
+![muchFun](https://i.imgur.com/LNRcZpT.png)
+
+![](https://i.imgur.com/g64sANM.png)
 
