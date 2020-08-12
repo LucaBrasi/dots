@@ -98,22 +98,22 @@ static const char *colorname[] = {
 	/* 8 normal colors */
 	"#0f0f0f",  /*Rich Black FOGRA 39*/
 	"#9e2a2b",  /*Auburn*/
-	"#357266",  /*Hookers Green*/
-	"#e09f3e",  /*Indian Yellow*/
+	"#5d872f",  /*Maximum Green*/
+	"#f59335",  /*Deep Saffron*/
 	"#3e6990",  /*Queen Blue*/
 	"#968aa8",  /*Glossy Grape*/
-	"#9ed8db",  /*Powder Blue*/
+	"#7b53a6",  /*Royal Purple*/
 	"#fbfffe",  /*White*/
 
 	/* 8 bright colors */
-	"#3d3d3d",   /*Onyx*/
-	"#cc3e40",   /*English Vermillion*/
-	"#4DA896",   /*Polished Pine*/
-	"#E8B973",  /*Gold Crayola*/
-	"#5486B6",  /*Steel Blue*/
-	"#B5ADC2",  /*Lavender Gray*/
-	"#D2EDEE",  /*Light Cyan*/
-	"#fbfffe",  /*White*/
+	"#3d3d3d",  /*Onyx*/
+	"#cc3e40",  /*English Vermillion*/
+	"#83996b",  /*Moss Green*/
+	"#d6d685",  /*Khaki X11 Light Khaki*/
+	"#5486b6",  /*Steel Blue*/
+	"#b5adc2",  /*Lavender Gray*/
+	"#d2edee",  /*Light Cyan*/
+	"#f0f0f0",  /*Cultured*/
 
 	[255] = 0,
 
